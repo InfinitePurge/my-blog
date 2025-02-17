@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import WyvernGuard from '../assets/WyvernGuard.png'
 import Reveal from '../Animations/Reveal'
 
 const Cards = () => {
@@ -29,7 +28,7 @@ const Cards = () => {
                     <div className='w-1/3'>
                         <Reveal>
                         <img 
-                            src={WyvernGuard}
+                            src="/WyvernGuard.png" 
                             alt="Project Image" 
                             className='rounded-lg shadow-lg w-full h-auto object-cover transition-opacity'
                         />
@@ -59,7 +58,7 @@ const Cards = () => {
                     <div className='w-1/3'>
                         <Reveal>
                         <img 
-                            src={WyvernGuard}
+                            src="/WyvernGuard.png" 
                             alt="Project Image" 
                             className='rounded-lg shadow-lg w-full h-auto object-cover transition-opacity'
                         />
@@ -89,7 +88,7 @@ const Cards = () => {
                     <div className='w-1/3'>
                         <Reveal>
                         <img 
-                            src={WyvernGuard}
+                            src="/WyvernGuard.png" 
                             alt="Project Image" 
                             className='rounded-lg shadow-lg w-full h-auto object-cover transition-opacity'
                         />
