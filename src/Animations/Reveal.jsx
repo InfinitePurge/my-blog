@@ -42,7 +42,7 @@ const Reveal = ({ children, width = "fit-content" }) => {
                     left: 0, 
                     right: 0, 
                     bottom: 4, 
-                    background: "#FF6B00", 
+                    background: "#FF6B00",
                     zIndex: 20 
                 }}
             />

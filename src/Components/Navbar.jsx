@@ -18,22 +18,22 @@ const Navbar = () => {
               <div className="flex space-x-2">
                 <Link
                   to="#about"
-                  className="bg-zinc-900 hover:bg-[#FF6B00] border-orange-300 hover:text-black text-white rounded-md px-3 py-2"
+                  className="bg-zinc-900 hover:bg-[#ffbd2f] border-orange-300 hover:text-black text-white rounded-md px-3 py-2"
                   >About</Link
                 >
                 <Link
                   to="#projects"
-                  className="bg-zinc-900 hover:bg-[#FF6B00] border-orange-300 hover:text-black text-white rounded-md px-3 py-2"
+                  className="bg-zinc-900 hover:bg-[#ffbd2f] border-orange-300 hover:text-black text-white rounded-md px-3 py-2"
                   >Projects</Link
                 >
                 <Link
                   to="#experience"
-                  className="bg-zinc-900 hover:bg-[#FF6B00] border-orange-300 hover:text-black text-white rounded-md px-3 py-2"
+                  className="bg-zinc-900 hover:bg-[#ffbd2f] border-orange-300 hover:text-black text-white rounded-md px-3 py-2"
                   >Experience</Link
                 >
                 <Link
                   to="#contact"
-                  className="bg-zinc-900 hover:bg-[#FF6B00] border-orange-300 hover:text-black text-white rounded-md px-3 py-2"
+                  className="bg-zinc-900 hover:bg-[#ffbd2f] border-orange-300 hover:text-black text-white rounded-md px-3 py-2"
                   >Contact</Link
                 >
               </div>
