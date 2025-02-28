@@ -1,7 +1,7 @@
 import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
 
-const Navbar = () => {
+const Navbar = (projects) => {
     return (
         <nav className="bg-black border-b-2 border-orange-300 sticky top-0 z-50">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">

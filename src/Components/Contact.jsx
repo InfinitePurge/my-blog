@@ -13,25 +13,29 @@ const Contact = () => {
           </h1>
         </Reveal>
         <Reveal>
-          <p className='text-white text-center text-xl my-4 flex'>
-            Shoot me an email if you want to connect! You can also find me on
-            <a
-              href="https://www.linkedin.com/in/edvinas-babilas"
-              target='_blank'
-              rel='noopener noreferrer'
-              className="font-medium text-[#ffbd2f] ml-1 mr-1 underline hover:text-[#ffa500] transition-colors hover:no-underline"
-            >
-              Linkedin</a>
-            and
-            <a
-              href="https://github.com/InfinitePurge"
-              target='_blank'
-              rel='noopener noreferrer'
-              className="font-medium text-[#ffbd2f] ml-1 mr-1 underline hover:text-[#ffa500] transition-colors hover:no-underline"
-            >
-              Github</a>
-            if that's more your speed.
-          </p>
+          <div className='flex justify-center'>
+            <p className='text-white text-xl my-4 max-w-[100%]'>
+              Shoot me an email if you want to connect! You can also find me on
+              <a
+                href="https://www.linkedin.com/in/edvinas-babilas"
+                target='_blank'
+                rel='noopener noreferrer'
+                className="font-medium text-[#ffbd2f] mx-1 underline hover:text-[#ffa500] transition-colors hover:no-underline"
+              >
+                Linkedin
+              </a>
+              and
+              <a
+                href="https://github.com/InfinitePurge"
+                target='_blank'
+                rel='noopener noreferrer'
+                className="font-medium text-[#ffbd2f] mx-1 underline hover:text-[#ffa500] transition-colors hover:no-underline"
+              >
+                Github
+              </a>
+              if that's more your speed.
+            </p>
+          </div>
         </Reveal>
         <h2 className='text-white text-center text-xl my-4 flex'>
           <Reveal>
