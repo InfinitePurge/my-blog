@@ -13,7 +13,7 @@ const Contact = () => {
           </h1>
         </Reveal>
         <Reveal>
-          <div className='flex justify-center'>
+          <div className='flex justify-center text-center'>
             <p className='text-white text-xl my-4 max-w-[100%]'>
               Shoot me an email if you want to connect! You can also find me on
               <a
