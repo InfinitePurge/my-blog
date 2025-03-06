@@ -87,7 +87,7 @@ const Modal = ({ project, onClose }) => {
                 </div>
                 <div>
                     <p className='text-white text-xl flex items-center gap-2 ml-4 mt-4'>
-                        Used Languages: <p className='text-[#ffbd2f]'> {project.Languages} </p>
+                        Naudojamos kalbos: <p className='text-[#ffbd2f]'> {project.Languages} </p>
                     </p>
                 </div>
 
@@ -98,7 +98,7 @@ const Modal = ({ project, onClose }) => {
                 </div>
                 <div>
                     <h1 className='text-white text-2xl sm:text-3xl underline md:text-4xl font-bold ml-4 mt-4'>
-                        Project Links
+                        Projekto nuorodos
                     </h1>
                 </div>
                 <div className='flex items-row justify-start ml-4 '>

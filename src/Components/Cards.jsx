@@ -76,7 +76,7 @@ const Cards = () => {
                                 </Reveal>
                                 <Reveal>
                                     <p className='text-white text-xl flex items-center gap-2 my-4'>
-                                        Used Languages: <p className='text-[#ffbd2f]'> {project.Languages} </p>
+                                        Naudojamos kalbos: <p className='text-[#ffbd2f]'> {project.Languages} </p>
                                     </p>
                                 </Reveal>
                                 <Reveal>
@@ -88,7 +88,7 @@ const Cards = () => {
                                 <span onClick={() => openModal(project)}
                                     className="text-[#ffbd2f] pr-2 cursor-pointer text-xl hover:underline group inline-flex items-center gap-2"
                                 >
-                                    Read more
+                                    Skaityti daugiau
                                     <FaArrowRight className=' group-hover:translate-x-1 transition-transform duration-300 ease-in-out' />
                                 </span>
                                 </Reveal>                        

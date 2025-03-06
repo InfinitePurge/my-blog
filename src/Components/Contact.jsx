@@ -9,13 +9,13 @@ const Contact = () => {
       <div className='flex flex-col items-center gap-8 mx-auto  px-4 sm:px-6 lg:px-8'>
         <Reveal>
           <h1 className='text-white text-4xl font-bold'>
-            Contact me
+            Susisiekite su manimi
           </h1>
         </Reveal>
         <Reveal>
           <div className='flex justify-center text-center'>
             <p className='text-white text-xl my-4 max-w-[100%]'>
-              Shoot me an email if you want to connect! You can also find me on
+              Susisiekite su manimi per el. pašto adresą arba per socialinius tinklus
               <a
                 href="https://www.linkedin.com/in/edvinas-babilas"
                 target='_blank'
@@ -24,7 +24,7 @@ const Contact = () => {
               >
                 Linkedin
               </a>
-              and
+              arba
               <a
                 href="https://github.com/InfinitePurge"
                 target='_blank'
@@ -33,7 +33,7 @@ const Contact = () => {
               >
                 Github
               </a>
-              if that's more your speed.
+              jei jums tinka tokia forma.
             </p>
           </div>
         </Reveal>
@@ -43,7 +43,7 @@ const Contact = () => {
             className="text-white border-2 mt-2 hover:bg-[#ffa500] hover:text-black font-bold border-orange-300 rounded-md px-3 py-2 flex items-center gap-2"
              href=""
           >
-            Contact Form
+            Susisiekimo forma
           </a>
         </div>
         </Reveal>

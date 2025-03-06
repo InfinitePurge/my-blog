@@ -24,11 +24,11 @@ const Hero = () => {
                     className="shadow-lg rounded-full w-72 h-72 md:w-96 md:h-70 mx-auto"
                   />
                   <h1 className='text-center'>
-                    <span className='text-[#ffbd2f]'> <FaCalendarAlt className='inline-block mr-2'/> Gimimo data: </span>
+                    <span className='text-[#ffbd2f]'> <FaCalendarAlt className='inline-block mr-2' /> Gimimo data: </span>
                     <span className='text-white'>2002-04-18</span>
                   </h1>
                   <h1 className='text-center'>
-                    <span className='text-[#ffbd2f]'> <FaMapMarkerAlt className='inline-block mr-2'/> Miestas: </span>
+                    <span className='text-[#ffbd2f]'> <FaMapMarkerAlt className='inline-block mr-2' /> Miestas: </span>
                     <span className='text-white'>Kaunas</span>
                   </h1>
                   <div className='flex justify-center '>
@@ -45,9 +45,11 @@ const Hero = () => {
 
               <Reveal>
                 <p className="text-xl text-white mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non mi facilisis,
-                  suscipit lacus et, pharetra nulla. Nunc sit amet bibendum orci. Aliquam sit amet maximus arcu,
-                  eu dapibus lectus. Aenean fringilla, lorem id posuere sodales, dui neque vestibulum orci, id laoreet elit
+                  Sveiki, esu Edvinas - Front-end programuotojas iš Kauno, kuriantis šiuolaikiškas ir
+                  vartotojui draugiškas internetines aplikacijas. Mano aistra - paversti sudėtingus
+                  sprendimus į elegantišką ir intuityvų kodą, naudojant React.js ir TailwindCSS.
+                  Nuolat ieškau naujų iššūkių ir galimybių tobulėti programavimo srityje,
+                  nes tikiu, kad geriausias būdas mokytis - tai kurti.
                 </p>
               </Reveal>
             </div>

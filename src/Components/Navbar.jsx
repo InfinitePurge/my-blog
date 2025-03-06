@@ -19,22 +19,22 @@ const Navbar = (projects) => {
                 <Link
                   to="#about"
                   className="bg-zinc-900 hover:bg-[#ffbd2f] border-orange-300 hover:text-black text-white rounded-md px-3 py-2"
-                  >About</Link
+                  >Apie save</Link
                 >
                 <Link
                   to="#projects"
                   className="bg-zinc-900 hover:bg-[#ffbd2f] border-orange-300 hover:text-black text-white rounded-md px-3 py-2"
-                  >Projects</Link
+                  >Projektai</Link
                 >
                 <Link
                   to="#experience"
                   className="bg-zinc-900 hover:bg-[#ffbd2f] border-orange-300 hover:text-black text-white rounded-md px-3 py-2"
-                  >Experience</Link
+                  >Patirtis</Link
                 >
                 <Link
                   to="#contact"
                   className="bg-zinc-900 hover:bg-[#ffbd2f] border-orange-300 hover:text-black text-white rounded-md px-3 py-2"
-                  >Contact</Link
+                  >Susisiekite su manimi</Link
                 >
               </div>
             </div>
