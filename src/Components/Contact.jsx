@@ -37,6 +37,16 @@ const Contact = () => {
             </p>
           </div>
         </Reveal>
+        <Reveal>
+        <div>
+          <a
+            className="text-white border-2 mt-2 hover:bg-[#ffa500] hover:text-black font-bold border-orange-300 rounded-md px-3 py-2 flex items-center gap-2"
+             href=""
+          >
+            Contact Form
+          </a>
+        </div>
+        </Reveal>
         <h2 className='text-white text-center text-xl my-4 flex'>
           <Reveal>
             <div className="flex items-row">

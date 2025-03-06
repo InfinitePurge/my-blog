@@ -4,7 +4,8 @@ import Reveal from '../Animations/Reveal'
 const AboutHome = () => {
   return (
     <>
-    <section id='about' className='bg-transparent border-b-2  border-orange-300 w-[60%] mx-auto py-20 mb-4'>
+    <section id='about' className='bg-transparent border-b-2  border-orange-300 mx-auto py-20 mb-4
+    w-[80%] md:w-[60%]'>
                 <div className='flex flex-col items-center gap-8 mx-auto  px-4 sm:px-6 lg:px-8'>
                         <Reveal>
                         <h1 className='text-white text-4xl font-bold'>

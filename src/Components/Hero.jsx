@@ -19,7 +19,7 @@ const Hero = () => {
               <div className="float-left mr-8">
                 <Reveal>
                   <img
-                    src="/tempface.png"
+                    src="/face.png"
                     alt="Project Image"
                     className="shadow-lg rounded-full w-72 h-72 md:w-96 md:h-70 mx-auto"
                   />
@@ -44,7 +44,7 @@ const Hero = () => {
               </div>
 
               <Reveal>
-                <p className="text-xl text-white">
+                <p className="text-xl text-white mt-2">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non mi facilisis,
                   suscipit lacus et, pharetra nulla. Nunc sit amet bibendum orci. Aliquam sit amet maximus arcu,
                   eu dapibus lectus. Aenean fringilla, lorem id posuere sodales, dui neque vestibulum orci, id laoreet elit
