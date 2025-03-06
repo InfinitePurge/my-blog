@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="flex flex-col items-center gap-8">
             <Reveal>
               <h1 className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
-                Place Holder
+                WORK IN PROGRESS!!!
               </h1>
             </Reveal>
             <div className="flex flex-col md:flex-row items-center">
