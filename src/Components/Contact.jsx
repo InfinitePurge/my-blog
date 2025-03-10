@@ -1,14 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react';
+import ContactModal from './ContactModal';
 import Reveal from '../Animations/Reveal'
 import { FaEnvelope } from 'react-icons/fa'
 
 
 const Contact = () => {
+  const [isContactModalOpen, setIsContactModalOpen] = useState(false);
   return (
     <section id='contact' className='bg-transparent border-b-2  border-orange-300 w-[80%] mx-auto py-20 mb-4'>
       <div className='flex flex-col items-center gap-8 mx-auto  px-4 sm:px-6 lg:px-8'>
         <Reveal>
-          <h1 className='text-white text-4xl font-bold'>
+          <h1 className='text-white text-4xl font-bold text-center'>
             Susisiekite su manimi
           </h1>
         </Reveal>
@@ -39,13 +41,17 @@ const Contact = () => {
         </Reveal>
         <Reveal>
         <div>
-          <a
-            className="text-white border-2 mt-2 hover:bg-[#ffa500] hover:text-black font-bold border-orange-300 rounded-md px-3 py-2 flex items-center gap-2"
-             href=""
-          >
-            Susisiekimo forma
-          </a>
-        </div>
+        <a
+                onClick={() => setIsContactModalOpen(true)}
+                className="text-white border-2 mt-2 hover:bg-[#ffa500] hover:text-black font-bold border-orange-300 rounded-md px-3 py-2 flex items-center gap-2 cursor-pointer"
+            >
+                Susisiekimo forma
+            </a>
+            </div>
+            <ContactModal 
+                isOpen={isContactModalOpen} 
+                onClose={() => setIsContactModalOpen(false)} />
+
         </Reveal>
         <h2 className='text-white text-center text-xl my-4 flex'>
           <Reveal>

@@ -9,14 +9,15 @@ const Hero = () => {
       <section id='home' className="bg-transparent py-20 mb-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center gap-8">
-            <Reveal>
-              <h1 className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
-                WORK IN PROGRESS!!!
-              </h1>
-            </Reveal>
+            <div className='flex justify-center items-center text-center'>
+              <Reveal>
+                <h1 className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
+                  WORK IN PROGRESS!!!
+                </h1>
+              </Reveal>
+            </div>
             <div className="flex flex-col md:flex-row items-center">
-
-              <div className="float-left mr-8">
+              <div className="float-left mr-8 ">
                 <Reveal>
                   <img
                     src="/face.png"
@@ -44,7 +45,7 @@ const Hero = () => {
               </div>
 
               <Reveal>
-                <p className="text-xl text-white mt-2">
+                <p className="text-xl text-white mt-2 ml-6">
                   Sveiki, esu Edvinas - Front-end programuotojas iš Kauno, kuriantis šiuolaikiškas ir
                   vartotojui draugiškas internetines aplikacijas. Mano aistra - paversti sudėtingus
                   sprendimus į elegantišką ir intuityvų kodą, naudojant React.js ir TailwindCSS.
