@@ -19,6 +19,7 @@ module.exports = {
         '::selection': { 
           background: 'black',
           color: 'white'
+          
         },
         '::-moz-selection': {
           background: 'black',

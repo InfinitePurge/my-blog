@@ -10,7 +10,12 @@ const Cards = () => {
         {
             id: 1,
             title: 'Offline Password Manager',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            description: `Baigiamajame bakalauro darbe buvo sukurta pažangi ir saugi slaptažodžių valdymo sistema, skirta plačiam požiūriui į vartotojų duomenų apsaugą. Sistema pasižymėjo daugybe saugumo užduočių, įskaitant pažangią veido atpažinimo technologiją ir dviejų faktorių autentifikavimą, užtikrinantį aukščiausią saugumo lygį programoje.
+
+            Saugių užrašų kūrimas projekte, vienkartinio užrašo funkcija, kuri automatiškai sunaikina informaciją perskaičius ir siūlo daugybę funkcijų, įskaitant pažangų slaptažodžių generatorių. Sistema kurta vartotojo patogumui – integruota automatinio atsijungimo sistemą, kelių kalbų palaikymą, individualius reikalavimus pagal individualius reikalavimus.
+
+            Ypatingas dėmesys buvo skiriamas duomenų saugumui – sistemoje buvo naudojami pažangūs šifravimo algoritmai ir inovatyvūs steganografijos metodai, leidžiantys nuotraukoje paslėpti svarbią informaciją. Projektas parodė šiuolaikišką požiūrį į kibernetinę saugą ir pateikė praktinį sprendimą, kaip efektyviai ir saugiai valdyti asmens duomenis skaitmeniniame pasaulyje.`,
+
             image: [
                 '/WyvernGuard.png',
                 '/VW2.png',
@@ -18,25 +23,37 @@ const Cards = () => {
                 '/VW4.png',
             ],
             Github: 'https://github.com/InfinitePurge/Offline-Password-Manager',
-            Languages: 'Python',
+            Languages: 'Python - tkinter - JSON',
 
         },
         {
             id: 2,
-            title: 'Project 2',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-            image: ['/WyvernGuard.png', '/WyvernGuard.png', '/WyvernGuard.png'],
-            Github: 'https://github.com/InfinitePurge/Offline-Password-Manager',
-            Languages: 'Other',
+            title: 'Know Your Bird',
+            description: `Šis projektas buvo sukurtas praktikos metu bendradarbiaujant su MB "Timitis". Mūsų trijų asmenų komanda turėjo tikslą sukurti edukacinę platformą, skirtą paukščių pažinimui ir ornitologijos mokslui populiarinti. Projekto esmė - sujungti modernias technologijas su gamtos pažinimu, suteikiant vartotojams interaktyvią ir patrauklią mokymosi aplinką.
+
+            Kaip pagrindinis dizaino kūrėjas, turėjau galimybę pritaikyti įvairias šiuolaikines technologijas: Laravel framework'ą, Bootstrap, jQuery ir kitus pažangius įrankius. Nors tai buvo tik antrasis mano kurtas projektas, jis tapo puikia platforma tobulėjimui ir naujų įgūdžių įgijimui. Kiekvienas iššūkis ir techninė kliūtis tapo vertinga patirtimi, padėjusia geriau suprasti vartotojo sąsajos dizaino principus ir web aplikacijų architektūrą.
+
+            Nors projektas buvo kuriamas mokymosi proceso metu ir turi tobulintinų aspektų, jis demonstruoja modernių web technologijų pritaikymą edukaciniais tikslais. Projektas ne tik patenkino praktikos reikalavimus, bet ir tapo vertinga patirtimi tolimesniam profesiniam tobulėjimui web development srityje.`,
+            
+            image: ['/k1.png', '/k2.png', '/k6.png', '/k4.png', '/k3.png', '/k5.png'],
+            Github: 'https://github.com/InfinitePurge/Know-Your-Bird',
+            Languages: 'PHP/Laravel - Bootstrap - jQuery - MySQL',
 
         },
         {
             id: 3,
-            title: 'Project 3',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-            image: ['/WyvernGuard.png', '/WyvernGuard.png', '/WyvernGuard.png'],
-            Github: 'https://github.com/InfinitePurge/Offline-Password-Manager',
-            Languages: 'Other - Other',
+            title: 'World of Mods',
+            description: `Tai mano pirmasis savarankiškai sukurtas internetinis projektas, skirtas žaidimų modifikacijų (modų) valdymui ir dalinimui. Projektas buvo sukurtas naudojant Laravel karkasą, kuris padėjo įsisavinti pagrindinius web programavimo principus.
+
+            Sistemos funkcionalumas apima vartotojų registraciją ir autentifikaciją, žaidimų ir modifikacijų įkėlimą, administravimo valdymo skydelį bei paveikslėlių tvarkymo sistemą. Projekto metu išmokau dirbti su duomenų bazėmis ir valdyti vartotojų autentifikaciją.
+
+            Nors projektas turi tobulintinų aspektų, ypač vartotojo sąsajos dizaino srityje, jis tapo vertinga patirtimi mokantis savarankiškai.
+
+            Šis projektas - tai buvo mano pirmieji žingsniai web programavimo srityje, parodantys gebėjimą savarankiškai mokytis ir įgyvendinti funkcionalų web projektą.`,
+            
+            image: ['/w1.png', '/w2.png', '/w3.png'],
+            Github: 'https://github.com/InfinitePurge/World-of-Mods',
+            Languages: 'PHP/Laravel - HTML - CSS - JavaScript - MySQL',
 
         }
     ];

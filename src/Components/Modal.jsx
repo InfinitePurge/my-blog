@@ -49,12 +49,19 @@ const Modal = ({ project, onClose }) => {
                                 style={{ transform: `translateX(-${currentIndex * 100}%)` }}
                             >
                                 {project.image.map((img, index) => (
-                                    <img
+                                    <a
                                         key={index}
-                                        src={img}
-                                        alt={`Project Image ${index + 1}`}
-                                        className="min-w-full h-full object-contain"
-                                    />
+                                        href={img}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="min-w-full h-full flex items-center justify-center hover:scale-105 transition-all duration-300 ease-in-out"
+                                    >
+                                        <img
+                                            src={img}
+                                            alt={`Project Image ${index + 1}`}
+                                            className="min-w-full h-full object-contain cursor-pointer"
+                                        />
+                                    </a>
                                 ))}
                             </div>
                             {/* Arrows */}
@@ -91,10 +98,14 @@ const Modal = ({ project, onClose }) => {
                     </p>
                 </div>
 
-                <div className='flex justify-center items-center text-base sm:text-lg md:text-xl px-4 mt-4'>
-                    <p>
-                        {project.description}
-                    </p>
+                <div className='flex flex-col justify-center text-base sm:text-lg md:text-xl px-4 mt-4'>
+                    {project.description.split('\n\n').map((paragraph, index) => (
+                        paragraph.trim() && (
+                            <p key={index} className='text-white mb-6'>
+                                {paragraph}
+                            </p>
+                        )
+                    ))}
                 </div>
                 <div>
                     <h1 className='text-white text-2xl sm:text-3xl underline md:text-4xl font-bold ml-4 mt-4'>

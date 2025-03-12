@@ -12,7 +12,7 @@ const Hero = () => {
             <div className='flex justify-center items-center text-center'>
               <Reveal>
                 <h1 className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
-                  WORK IN PROGRESS!!!
+                  Portfolio
                 </h1>
               </Reveal>
             </div>
