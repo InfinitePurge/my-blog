@@ -28,12 +28,12 @@ const Contact = () => {
               </a>
               arba
               <a
-                href="https://github.com/InfinitePurge"
+                href="https://www.facebook.com/edvinas.babilas"
                 target='_blank'
                 rel='noopener noreferrer'
                 className="font-medium text-[#ffbd2f] mx-1 underline hover:text-[#ffa500] transition-colors hover:no-underline"
               >
-                Github
+                Facebook
               </a>
               jei jums tinka tokia forma.
             </p>
