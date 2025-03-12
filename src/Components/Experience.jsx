@@ -1,5 +1,6 @@
 import React from 'react'
 import Reveal from '../Animations/Reveal'
+import { FaRegCalendar, FaLocationDot } from 'react-icons/fa6'
 
 const Experience = () => {
 
@@ -9,7 +10,7 @@ const Experience = () => {
             company: 'Kauno Kolegija',
             role: 'Programų sistemų studentas',
             location: 'Kaunas',
-            date: '2021 - 2025',
+            date: '2021-09 - 2025-02',
             description: 'Sėkmingai baigiau Programų sistemų studijas Kauno Kolegijoje ir įgijau aukštąjį neuniversitetinį (profesinį bakalaurą) išsilavinimą. Studijų metu įgijau platų spektrą programavimo ir sistemų kūrimo įgūdžių. Dirbau su įvairiomis programavimo kalbomis ir technologijomis: Python (objektinis programavimas, algoritmų kūrimas), C# (desktop aplikacijų kūrimas, .NET framework), Java. Aktyviai kūriau ir tobulinau web aplikacijas naudodamas HTML, CSS ir JavaScript. Įgijau patirties su duomenų bazių projektavimu ir valdymu (SQL), sistemų projektavimu ir dokumentavimu (UML diagramų braižymas, reikalavimų specifikavimas). Studijų metu įgyvendinau įvairius praktinius projektus, kurie apėmė pilną programinės įrangos kūrimo ciklą - nuo planavimo iki galutinio produkto realizacijos.'
         },
         {
@@ -68,12 +69,12 @@ const Experience = () => {
                             </Reveal>
                         </div>
                         <Reveal>
-                            <span className="text-gray-400">{exp.date}</span>
+                            <span className="text-white"><FaRegCalendar className='inline-block mr-1 mb-1 text-[#ffbd2f]' /> {exp.date}</span>
                         </Reveal>
                     </div>
                     <div className="flex justify-between items-start mb-2">
                         <Reveal>
-                            <span className="text-gray-400">{exp.location}</span>
+                            <span className="text-white"><FaLocationDot className='inline-block mr-1 mb-1 text-[#ffbd2f]' /> {exp.location}</span>
                         </Reveal>
                     </div>
                     <Reveal>
